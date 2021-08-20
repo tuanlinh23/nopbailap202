@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/dark-wood.jpg);
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.header_box img {
+    width: 100%;
+    height: 150px;
+}
+
+.header-menu {
+    background-color: rgb(151, 144, 144);
+    margin-top: -4px;
+}
+
+.tab-menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.tab-menu li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.tab-menu li a:hover {
+    color: black;
+}
+
+.container {
+    background-color: white;
+    
+}
+
+.container-items {
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items {
+    width: 33.33333%;
+}
+
+.item1 {
+    border: 1px solid #ccc;
+    margin: 40px 10px;
+}
+
+p {
+    color: black;
+    padding-top: 5px;
+}
+
+.item2 {
+    padding: 60px 10px;
+}
+
+h1 {
+    color: black;
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+span {
+    color: rgb(238, 89, 89);
+}
+
+.item2 p {
+    padding-top: 15px;
+    color: rgb(99, 94, 94);
+}
+
+.line {
+    border-left: 1px solid #ccc;
+}
+
+/* .text {
+    padding: 42px 20px;
+} */
+
+.text1 {
+    padding-top: 40px;
+}
+
+.text1 li {
+    color: rgb(238, 89, 89);
+    list-style: none;
+}
+
+.text2 {
+    margin-top: -22px;
+}
+
+.text2 h2 {
+    color: rgb(238, 89, 89);
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.about-text {
+    margin-left: 40px;
+}
+
+.text2 p {
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.text1 li {
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.footer {
+    background-color: #ccc;
+    height: 32px;
+    line-height: 1.5;
+}
+
+.footer-street p {
+    padding-left: 20px;
+    color: rgb(87, 80, 80);
+}
+
+.footer-street p i {
+    font-size: 14px !important;
+    padding: 0 4px 0 0;
+    margin-left: -6px;
+    line-height: 1.6;
+}
+
+.footer-street p {
+    font-size: 13px;
+}
